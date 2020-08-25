@@ -74,7 +74,7 @@ After 2 weeks arguments (updating our POC and communicate with Microsoft). They 
 I guess Microsoft is giving up curing Windows, how stupid I am still hunting Windows Bugs.
 
 ## Credits
-Zhiniang Peng (@edwardzpeng) & Xuefeng Li 
+Zhiniang Peng (@edwardzpeng) & Xuefeng Li (@lxf02942370)
 
 
 
