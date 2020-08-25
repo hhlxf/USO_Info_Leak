@@ -67,9 +67,9 @@ We report about 44 UAF bugs to Microsoft before August 2020. Microsoft accept th
 
 We reply to Microsoft that we need some time to prepare all the POCs. However, Microsoft directly close all the cases in less than one day without further communication. This seems crazy to us. And we cannot accept that because:
 It will take a lot of time to rewrite the POC, if other people report these bugs in this period. We will lost the bounty.
-if we report the vulnerability again, some of the bounty awards will change from 20k to 2k because the change the rules.
+if we report the vulnerability again, some of the bounty awards will change from 20k to 2k because the rules has been changed.
 
-After 2 weeks arguments (updating our POC and communicate with Microsoft). They finally agreed that our bugs are EOP now. But sadly, they also found an excuse to merge more than half of them. Event they are in different functions, different DLL and different servers.
+After 2 weeks arguments (updating our POC and communicate with Microsoft). They finally agreed that our bugs are EOP now. But sadly, they also found an excuse to merge more than half of them. Even they are in different functions, different DLL and different services.
 
 I guess Microsoft is giving up curing Windows, how stupid I am still hunting Windows Bugs.
 
