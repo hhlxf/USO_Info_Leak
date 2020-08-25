@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Project\USO_Heap_Address_leak\vul1\poc\main.cpp(345,6): warning C4101: “iid”: 未引用的局部变量
+  poc.vcxproj -> D:\Project\USO_Heap_Address_leak\vul1\x64\Debug\poc.exe

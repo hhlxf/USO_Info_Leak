@@ -1,0 +1,9 @@
+﻿  main.cpp
+D:\WorkFolder\Bug Reports\20200724 UxUpdateManager Information leak\COM\poc\main.cpp(355,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“Microsoft::WRL::ComPtr<IUxUpdateManager>”
+D:\WorkFolder\Bug Reports\20200724 UxUpdateManager Information leak\COM\poc\main.cpp(345,6): warning C4101: “iid”: 未引用的局部变量
+  正在生成代码
+  1 of 120 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  poc.vcxproj -> D:\WorkFolder\Bug Reports\20200724 UxUpdateManager Information leak\COM\x64\Release\poc.exe
