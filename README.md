@@ -45,7 +45,7 @@ windows 10 2004 19041.450
 
 ## Vulnerability 2: Information leakage in usocoreworker.exe
 
-Here is another bug very similar to the former one. It’s reside in `usocoreworker.exe!UsoSettingsUtil::GetSetting`, you can easily modify our former POC to trigger this bugs.
+Here is another bug very similar to the former one. It’s reside in `usocoreworker.exe!UsoSettingsUtil::GetSetting`, you can easily modify our former POC to trigger this bug.
 
 ## Response from Microsoft
 2 weeks after the submission.  We got a response from Microsoft.
@@ -59,11 +59,11 @@ Here is another bug very similar to the former one. It’s reside in `usocorewor
 ## Discussion
 Clearly, these kinds of vulnerabilities are very stable information leakage. It breaks the security boundary between medium user and system service. As we can leak the heap address, we can use it to break the ASLR and chain with another memory corruption bug in this service to get a full EOP exploit.  
 
-It is worth mentioning that: we have another memory corruption vulnerability in this server, so we can chain them together to get a full EOP. However, the story of this vulnerability also makes me feel very frustrated with Microsoft. I can't help but tell him here.
+It is worth mentioning that: we have another memory corruption vulnerability in this server, so we can chain them together to get a full EOP. However, the story of this vulnerability also makes me feel very frustrated with Microsoft. 
 
 
 ## A story of 44 EoP bugs
-We report about 44 UAF bugs to Microsoft before August 2020. But Microsoft accept these bugs in the beginning. But one day the suddenly refuse to fix these vulnerabilities and saying that “it’s hard for attacker to use them in the real attack scenario, they will only fix them if we can provide additional POC”. 
+We report about 44 UAF bugs to Microsoft before August 2020. Microsoft accept these bugs in the beginning. But one day the suddenly refuse to fix these vulnerabilities and saying that “it’s hard for attacker to use them in the real attack scenario, they will only fix them if we can provide additional POC”. 
 
 We reply to Microsoft that we need some time to prepare all the POCs. However, Microsoft directly close all the cases in less than one day without further communication. This seems crazy to us. And we cannot accept that because:
 It will take a lot of time to rewrite the POC, if other people report these bugs in this period. We will lost the bounty.
