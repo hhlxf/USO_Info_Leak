@@ -40,7 +40,7 @@ To trigger this bug, you should firstly get a `UxUpdateManager` object from `uso
 
 ## Test Platform
 windows 10 2004 19041.450
-![](./1.png)
+![](https://lxf-img.oss-cn-hongkong.aliyuncs.com/img/1.png)
 
 
 ## Vulnerability 2: Information leakage in usocoreworker.exe
